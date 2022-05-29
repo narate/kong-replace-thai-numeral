@@ -19,10 +19,10 @@ Kong serverless function for replace Thai numeral
 
 ## Add Kong Plugin
 
-Add Kong Serverless post-function in
+Add Kong Serverless post-function
 
-- `config.header_filter` with `kong.response.clear_header("Content-Length") `
-- `config.body_filter` with [replace.lua](./replace.lua) code
+- `config.header_filter` value `kong.response.clear_header("Content-Length") `
+- `config.body_filter` value in [replace.lua](./replace.lua) code
 
 > To minify your Lua code using a [minifier](https://mothereff.in/lua-minifier).
 
